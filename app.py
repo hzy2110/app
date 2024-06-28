@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the Excel file
-file_path = '/Users/connorhuang/Desktop/2024仓库领用总表.xlsx'
+file_path = '2024仓库领用总表.xlsx'
 df = pd.read_excel(file_path)
 
 st.title("2024仓库领用数据计算器")
